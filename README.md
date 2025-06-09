@@ -1,12 +1,12 @@
 # AlignmentToVariants
 This script converts multiple sequence alignments (in FASTA format) to a list of variants relative to one of the sequences
 
-## Usage `find_amino_acid_differences.py` Script
+## Usage `AlignmentToVariants.py` Script
 
 This script identifies amino acid differences and insertions/deletions between sequences in a nucleotide multiple sequence alignment with respect to a specified reference. This was used on core genes in the study to identiify variants associated with resistant phenotypes.
 
 ```bash
-python3 find_amino_acid_differences.py [-h] fasta_file ref_header output_file
+python3 AlignmentToVariants.py [-h] fasta_file ref_header output_file
 
 positional arguments:
   fasta_file   Input multiple sequence alignment nucleotide FASTA file. Please note that it is expected
