@@ -5,6 +5,8 @@ This script converts multiple sequence alignments (in FASTA format) to a list of
 
 This script identifies amino acid differences and insertions/deletions between sequences in a nucleotide multiple sequence alignment with respect to a specified reference. This was used on core genes in the study to identiify variants associated with resistant phenotypes.
 
+This was tested using Python 3.12+ so please ensure you are running with this version installed
+
 ```bash
 python3 AlignmentToVariants.py [-h] fasta_file ref_header output_file
 
